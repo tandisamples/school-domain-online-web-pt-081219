@@ -34,4 +34,11 @@ class School
 
 end
 
+school = School.new("What")
+school.add_student("AC Slater", 9)
+school.add_student("Kelly Kapowski", 10)
+school.add_student("Screech", 11)
+school.add_student("Kelly Kapowski", 10)
+puts school.grade(9)
+
 # code here!
